@@ -532,27 +532,3 @@ my-portfolio/
 
 ---
 
-# 14. Yêu cầu Responsive
-
-Website phải hiển thị tốt trên:
-
-* Desktop
-* Tablet
-* Mobile
-
-Có thể sử dụng các breakpoint của Tailwind CSS như:
-
-```text
-sm
-md
-lg
-xl
-```
-
-Navbar và các Card cần có giao diện phù hợp với màn hình nhỏ.
-
----
-
-
----
-
