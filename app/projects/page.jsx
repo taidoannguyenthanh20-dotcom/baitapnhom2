@@ -17,7 +17,7 @@ export const projectsData = [
   {
     id: "3",
     name: "Website Thuyết trình NCKH",
-    description: "Cùng nhóm (Uy, Thảo, Toàn) xây dựng trang quản lý tài liệu nghiên cứu.",
+    description: "Làm việc nhóm xây dựng trang quản lý tài liệu nghiên cứu.",
     technologies: ["React", "Tailwind"],
   }
 ];
