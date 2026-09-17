@@ -12,32 +12,29 @@ export default function Experience() {
       <div className="mt-8 space-y-6">
         <div className="rounded-2xl border bg-white p-6 shadow-sm">
           <p className="text-sm font-medium text-blue-600">
-            2025 - 2026
+            12/2025 - Hiện tại
           </p>
 
           <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Web Development Projects
+            Software Developer
           </h2>
 
           <p className="mt-4 leading-7 text-gray-600">
-            Thực hiện các dự án Web trong quá trình học tập,
-            tập trung vào React, Next.js và xây dựng giao diện
-            responsive.
+            Phát triển hệ thống Backend cho dự án Mini App "Hair Salon Booking" bằng Java, Spring Boot và Maven. Thực hiện xây dựng luồng đặt lịch, RESTful API và thiết kế cơ sở dữ liệu.
           </p>
         </div>
 
         <div className="rounded-2xl border bg-white p-6 shadow-sm">
           <p className="text-sm font-medium text-blue-600">
-            Academic Projects
+            2025 - 2026
           </p>
 
           <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Dự án học tập
+            UI/UX Designer & Web Development
           </h2>
 
           <p className="mt-4 leading-7 text-gray-600">
-            Tham gia xây dựng các dự án liên quan đến phát triển
-            ứng dụng, cơ sở dữ liệu và công nghệ Web.
+            Thiết kế giao diện người dùng trên Figma, tập trung vào trải nghiệm mượt mà và tính thẩm mỹ. Kết hợp thực hành xây dựng giao diện thực tế bằng React, Next.js và Tailwind CSS.
           </p>
         </div>
       </div>
