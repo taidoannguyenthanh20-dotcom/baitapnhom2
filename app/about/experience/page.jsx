@@ -1,46 +1,15 @@
-export default function Experience() {
+export default function ExperiencePage() {
   return (
-    <section className="mx-auto max-w-4xl px-6 py-16">
-      <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
-        Experience
-      </p>
-
-      <h1 className="mt-3 text-4xl font-bold text-gray-900">
-        Kinh nghiệm
-      </h1>
-
-      <div className="mt-8 space-y-6">
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            2025 - 2026
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Web Development Projects
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Thực hiện các dự án Web trong quá trình học tập,
-            tập trung vào React, Next.js và xây dựng giao diện
-            responsive.
-          </p>
-        </div>
-
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            Academic Projects
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Dự án học tập
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Tham gia xây dựng các dự án liên quan đến phát triển
-            ứng dụng, cơ sở dữ liệu và công nghệ Web.
-          </p>
-        </div>
+    <div className="max-w-2xl mx-auto py-8">
+      <h2 className="text-3xl font-bold mb-6">Kinh Nghiệm</h2>
+      <div className="border-l-4 border-blue-600 pl-4">
+        <h3 className="text-xl font-bold">Web Developer Freelance</h3>
+        <p className="text-gray-500">2025 - Hiện tại</p>
+        <ul className="list-disc list-inside mt-2 text-gray-700">
+          <li>Phát triển các ứng dụng Next.js tối ưu Rendering (SSR, SSG, ISR).</li>
+          <li>Làm việc với cơ sở dữ liệu MySQL, SQL Server.</li>
+        </ul>
       </div>
-    </section>
+    </div>
   );
 }
