@@ -1,46 +1,16 @@
-export default function Experience() {
+import SectionTitle from "@/components/SectionTitle";
+
+export default function ExperiencePage() {
   return (
-    <section className="mx-auto max-w-4xl px-6 py-16">
-      <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
-        Experience
-      </p>
-
-      <h1 className="mt-3 text-4xl font-bold text-gray-900">
-        Kinh nghiệm
-      </h1>
-
-      <div className="mt-8 space-y-6">
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            2025 - 2026
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Web Development Projects
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Thực hiện các dự án Web trong quá trình học tập,
-            tập trung vào React, Next.js và xây dựng giao diện
-            responsive.
-          </p>
-        </div>
-
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            Academic Projects
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Dự án học tập
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Tham gia xây dựng các dự án liên quan đến phát triển
-            ứng dụng, cơ sở dữ liệu và công nghệ Web.
-          </p>
+    <div className="space-y-6 py-6">
+      <SectionTitle label="About / Experience" title="Kinh Nghiệm Làm Việc" />
+      <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm space-y-6">
+        <div className="border-l-4 border-blue-600 pl-4 py-1">
+          <h3 className="text-xl font-bold text-gray-900">Frontend Developer Trainee / Student</h3>
+          <p className="text-gray-600 font-medium">PTIT Lab & Personal Projects (2024 - Hiện tại)</p>
+          <p className="text-sm text-gray-500 mt-2">Thực hành xây dựng dự án web với React, Next.js, tích hợp RESTful API và Tailwind CSS.</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
