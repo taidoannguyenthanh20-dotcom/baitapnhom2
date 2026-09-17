@@ -1,46 +1,21 @@
-export default function Experience() {
+import Link from "next/link";
+import SectionTitle from "@/components/SectionTitle";
+
+export default function ExperiencePage() {
   return (
-    <section className="mx-auto max-w-4xl px-6 py-16">
-      <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
-        Experience
-      </p>
-
-      <h1 className="mt-3 text-4xl font-bold text-gray-900">
-        Kinh nghiệm
-      </h1>
-
-      <div className="mt-8 space-y-6">
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            2025 - 2026
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Web Development Projects
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Thực hiện các dự án Web trong quá trình học tập,
-            tập trung vào React, Next.js và xây dựng giao diện
-            responsive.
-          </p>
-        </div>
-
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            Academic Projects
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Dự án học tập
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Tham gia xây dựng các dự án liên quan đến phát triển
-            ứng dụng, cơ sở dữ liệu và công nghệ Web.
-          </p>
+    <div className="max-w-3xl mx-auto space-y-6">
+      <Link href="/about" className="text-sm text-indigo-600 hover:underline">← Quay lại trang About</Link>
+      <SectionTitle label="Kinh nghiệm" title="Kinh nghiệm làm việc" description="Các dự án và hoạt động thực tế" />
+      <div className="bg-white p-6 rounded-xl border border-slate-200 space-y-4">
+        <div className="border-l-2 border-indigo-600 pl-4">
+          <span className="text-xs text-slate-500 font-medium">2024 - Nay</span>
+          <h3 className="text-lg font-bold text-slate-800">Frontend Developer</h3>
+          <p className="text-slate-600 text-sm mt-1">Xây dựng giao diện responsive với Next.js và Tailwind CSS; tích hợp REST API; tối ưu tốc độ tải trang và SEO on-page cho các dự án nội bộ.</p>
+          <span className="text-xs text-slate-500 font-medium">2023 - 2024</span>
+          <h3 className="text-lg font-bold text-slate-800">Software Developer</h3>
+          <p className="text-slate-600 text-sm mt-1">Tham gia thiết kế kiến trúc hệ thống, xây dựng module xác thực (Auth/JWT), thanh toán và xử lý logic nghiệp vụ; triển khai ứng dụng bằng Docker và thiết lập CI/CD pipeline cơ bản trên GitHub Actions.</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
