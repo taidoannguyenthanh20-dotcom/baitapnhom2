@@ -1,46 +1,16 @@
-export default function Experience() {
+import SectionTitle from "@/components/SectionTitle";
+
+export default function ExperiencePage() {
   return (
-    <section className="mx-auto max-w-4xl px-6 py-16">
-      <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
-        Experience
-      </p>
-
-      <h1 className="mt-3 text-4xl font-bold text-gray-900">
-        Kinh nghiệm
-      </h1>
-
-      <div className="mt-8 space-y-6">
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            2025 - 2026
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Web Development Projects
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Thực hiện các dự án Web trong quá trình học tập,
-            tập trung vào React, Next.js và xây dựng giao diện
-            responsive.
-          </p>
-        </div>
-
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
-          <p className="text-sm font-medium text-blue-600">
-            Academic Projects
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-gray-900">
-            Dự án học tập
-          </h2>
-
-          <p className="mt-4 leading-7 text-gray-600">
-            Tham gia xây dựng các dự án liên quan đến phát triển
-            ứng dụng, cơ sở dữ liệu và công nghệ Web.
-          </p>
+    <div>
+      <SectionTitle label="Kinh nghiệm" title="Kinh nghiệm làm việc & Dự án" />
+      <div className="border-l-2 border-green-600 pl-4 space-y-4">
+        <div>
+          <h3 className="font-bold text-lg">Frontend Developer (Lập trình viên Web)</h3>
+          <p className="text-sm text-gray-500">2025 - 2026</p>
+          <p className="text-gray-700 mt-1">Xây dựng và tối ưu hóa các giao diện web responsive sử dụng React, Next.js và Tailwind CSS.</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
